@@ -21,7 +21,7 @@ def predict():
     
     output = prediction
 
-    return render_template('index.html', prediction_text='0 means not click,1 means yes:result is  {}--<predicted'.format(output))
+    return render_template('index.html', prediction_text='0 means uesr will not click add,1 means user will click:result is  {}--<predicted'.format(output))
 
 
 if __name__ == "__main__":
